@@ -25,7 +25,11 @@ cd rag-agent
 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-Then modify rag.py to read:
+3️⃣ Set your OpenAI API key
+
+Edit rag.py and replace the placeholder key with your actual OpenAI API key:
+
+OPENAI_API_KEY = "OPENAI_API_KEY"
 
 ▶️ Run the App
 streamlit run app.py
